@@ -83,9 +83,9 @@ body {
     text-align: center;
     color: #000046;
   }
-  .inside h1 {
-    font-size: 120px;
-    line-height: 120px;
+  .inside p {
+    font-size: 20px;
+    line-height: 25px;
   }
 
   #ratparty {
