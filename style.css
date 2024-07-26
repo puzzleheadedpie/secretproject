@@ -99,8 +99,42 @@ body {
 
   .aubrey img {
     position: relative;
-    top: 520px;
+    top: 580px;
     right: 0px;
-    width: 150px;
-    height: auto;
+    width: 100px;
+    height: 100px;
   }
+
+  .aubrey:hover img{
+    opacity: 0;
+  }
+
+  .aubrey::before {
+    content: "";
+    position: absolute;
+    top: 580px;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: url('images/aubrey.webp') no-repeat center center;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+    .aubrey:hover::before {
+    opacity: 1;
+}
+
+.text {
+    position: absolute;
+    font-size: 12px;
+    top: 550px;
+    left: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.aubrey:hover .text {
+    opacity: 1;
+}
