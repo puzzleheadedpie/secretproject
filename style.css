@@ -2,11 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
-}
+    font-family: "Lexend Deca", sans-serif;
 
 body {
-    background-color: coral;
+    background-color: rgb(243, 204, 156);
 }
 
 .card {
@@ -37,7 +36,7 @@ body {
   left: 50.1%;
 }
 .inside {
-  background: linear-gradient(to right, #e7e7e7, #ffffff 30%);
+  background: linear-gradient(to right, #e3d7b8, #faedcb 30%);
   line-height: 3;
   padding: 0 20px;
   text-align: center;
@@ -46,6 +45,7 @@ body {
   justify-content: space-around;
   align-items: center;
   left: 50%;
+  border-radius: 10px;
 }
 .outside {
   -webkit-transform-style: preserve-3d;
@@ -64,13 +64,17 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transform: rotateX(0deg);
+  border-radius: 10px;
 }
 .front {
-  background-color: #ffffff;
+  background-color: #faedcb;
+  text-align: center;
+  border-radius: 10px;
 }
 .back {
   transform: rotateY(180deg);
-  background: linear-gradient(to left, #e7e7e7, #ffffff 30%);
+  background: linear-gradient(to left, #e3d7b8, #faedcb 30%);
+  border-radius: 10px;
 }
 .outside p {
     font-size: 28px;
@@ -81,4 +85,12 @@ body {
   .inside h1 {
     font-size: 120px;
     line-height: 120px;
+  }
+
+  #ratparty {
+    height: 200px;
+    width: 200px;
+    border-radius: 15%;
+    position: relative;
+    top: 30px;
   }
