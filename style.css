@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Lexend Deca", sans-serif;
+}
 
 body {
     background-color: rgb(243, 204, 156);
@@ -92,5 +93,14 @@ body {
     width: 200px;
     border-radius: 15%;
     position: relative;
+    border-style: double;
     top: 30px;
+  }
+
+  .aubrey img {
+    position: relative;
+    top: 520px;
+    right: 0px;
+    width: 150px;
+    height: auto;
   }
